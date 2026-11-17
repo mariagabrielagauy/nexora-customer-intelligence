@@ -1,104 +1,121 @@
 # NEXORA | Customer Intelligence
 
-**Independent portfolio case · Product Analytics · Customer Success · AI/ML**  
+**Independent portfolio case · Product Analytics · Customer Success · AI-assisted decision support**  
 **Author:** Maria Gabriela Gauy
 
-> A fictional B2B SaaS case study exploring how product-usage and licensing signals can help teams understand adoption, identify accounts that deserve attention, and prioritize human follow-up.
+> A fictional B2B SaaS case exploring how product-usage and licensing signals can be transformed into an actionable view of adoption, account health and customer follow-up priorities.
 
-[🇧🇷 Leia em português](#versão-em-português)
+## 60-second overview
 
-## The problem
+Customer teams can miss early signs of declining adoption when they monitor accounts through disconnected indicators. NEXORA combines licensing, engagement, feature adoption and usage trends in one interactive portfolio view. A transparent health index helps prioritize human review, while an optional LLM assistant lets users explore the synthetic portfolio through natural-language questions.
 
-In a B2B software business, a customer can remain contracted while product adoption declines. Looking only at the number of customers or total licenses can hide important signals: inactive seats, low module adoption, falling usage frequency, or a shrinking active-user base.
+**Live demo:** [Add your Streamlit app URL after deployment]  
+**Repository:** [GitHub](https://github.com/mariagabrielagauy/nexora-customer-intelligence)
 
-This prototype brings those signals together in one portfolio view.
+## What it demonstrates
 
-## What the prototype does
+- A portfolio dashboard with filters and executive KPIs.
+- Product adoption and license activation analysis.
+- Account-level exploration and prioritization.
+- A transparent, explainable heuristic health index.
+- Rule-based next-best-action suggestions for human review.
+- Optional natural-language analysis through the OpenAI API.
+- Data validation and a documented privacy/limitations approach.
 
-- Monitors a fictional portfolio of **120 customer companies**.
-- Summarizes customer count, licensed seats, active users and seat activation.
-- Breaks down licenses across four fictional product modules.
-- Explores usage frequency, active days and most-used features.
-- Displays an illustrative ML-based risk score and prioritizes accounts for review.
-- Suggests transparent, rule-based next steps for a human account owner.
-- Supports filters and account-level exploration.
+## Business question
 
-## Product and business indicators
+How might a B2B software team identify customers whose product adoption deserves attention, understand the usage signals behind that assessment, and organize follow-up work?
 
-| Dimension | Example indicators in this demo |
+## Indicators in the fictional dataset
+
+| Dimension | Example indicators |
 |---|---|
-| Customer base | Number of customer companies |
-| Licensing | Total seats and seats by module |
-| User engagement | Active users and active-seat rate |
-| Usage | Weekly sessions and active days per month |
-| Feature adoption | Module adoption and most-used feature |
-| Customer monitoring | Usage change, inactivity, support signals and illustrative risk band |
+| Customer portfolio | Account count, segment and industry |
+| Licensing | Contracted seats and seats by module |
+| Adoption | Active users, seat activation and module adoption |
+| Engagement | Weekly sessions and active days per month |
+| Usage trend | 30-day usage change and days since last login |
+| Customer experience | Simulated support-ticket volume and sentiment indicator |
 
-## How to run locally
+## Decision workflow
+
+1. Filter the portfolio by segment and account-health category.
+2. Review the overall distribution of adoption and usage.
+3. Identify accounts with weaker health indicators.
+4. Inspect the signals behind an individual account.
+5. Use suggested actions as prompts for human investigation.
+6. Ask the optional assistant to summarize patterns in the filtered synthetic data.
+
+## Method and responsible use
+
+The health index is a **weighted heuristic**, not a churn probability. Its components and thresholds are visible in the source code. Suggested actions are deterministic rules. The optional LLM assistant receives only a compact summary and a limited set of fictional records from the active filters; it does not contact customers or modify external systems.
+
+All records are synthetic. The demo is not a validated production model. A real deployment would require authorized historical data, stakeholder-defined outcomes, temporal validation, model monitoring, privacy/security review and human oversight.
+
+## Relationship to my experience
+
+My professional experience in a B2B software environment exposed me to questions around software usage, customer indicators, product performance, user support and quality assurance. Those themes informed the **problem framing** of this independent case. The NEXORA implementation, fictional company, metrics and dataset were created separately; this project is not an Eliis product and does not reproduce proprietary systems, data or deliverables.
+
+My previous work at IPT also involved process automation: I used AI assistance while developing code to automate the generation of descriptions for field forms. This portfolio case is a separate demonstration and should not be interpreted as a continuation of that internal tool.
+
+## Run locally
 
 ```bash
 python -m venv .venv
-# Windows PowerShell: .venv\Scripts\Activate.ps1
-# macOS/Linux: source .venv/bin/activate
+# Windows PowerShell
+.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Deploy on Streamlit Community Cloud
+## Enable the optional AI assistant
 
-1. Push this repository to a **public GitHub repository**.
-2. Sign in to Streamlit Community Cloud with GitHub.
-3. Select **Create app**, choose this repository, branch `main`, and file `app.py`.
-4. Deploy. No API key or secret is required for this version.
+The assistant uses the OpenAI API (`gpt-4.1-mini`). The app works without an API key; only the chat feature remains disabled.
+
+PowerShell:
+```powershell
+$env:OPENAI_API_KEY="your-api-key"
+streamlit run app.py
+```
+
+Streamlit Community Cloud → App settings → Secrets:
+```toml
+OPENAI_API_KEY = "your-api-key"
+```
+
+Never commit API keys. API use may incur charges under the account's current pricing and limits.
 
 ## Technology
 
-Python · Streamlit · Pandas · Plotly · scikit-learn
-
-## Data, privacy and scope
-
-All data in `data/synthetic_customers.csv` is generated for this demonstration. The company, accounts, license allocations, usage indicators and churn labels are fictional. No Eliis, IPT, university, customer or research data is included.
-
-This is an independent portfolio project. It is **not** an Eliis product and should not be presented as work deployed at Eliis. The case is inspired by general B2B software adoption and customer-monitoring questions; the implementation and fictional data were created separately for this portfolio.
-
-## Model limitations
-
-The Random Forest model is trained and evaluated only in the context of simulated labels. Its risk score is illustrative, not a validated churn prediction. Thresholds are demonstration choices. Recommendations are deterministic business rules, not autonomous AI decisions. The prototype does not contact customers, change licenses or update a CRM.
-
-A real deployment would require authorized data, temporal validation, calibration, bias and performance monitoring, security review, and human oversight.
+Python · Streamlit · Pandas · Plotly · OpenAI API
 
 ## Project status
 
-Portfolio prototype. The local app and data checks are included; real customer integrations, LLM assistant, production monitoring and validated predictive performance are out of scope.
+Independent portfolio prototype. The interface and core workflow are implemented; the optional AI assistant requires a separately configured API key. No CRM integration, real customer data, autonomous actions or validated churn prediction are claimed.
 
 ---
 
 ## Versão em português
 
-### Visão geral
+### Resumo
 
-O NEXORA é um estudo de caso fictício de uma empresa B2B de software. O projeto explora como indicadores de licenciamento e utilização podem ajudar a compreender a adoção do produto, identificar contas que merecem atenção e organizar prioridades de acompanhamento.
+O NEXORA é um estudo de caso fictício de uma empresa B2B de software. A proposta é reunir indicadores de licenciamento, adoção e utilização em uma visão de carteira que ajude a identificar contas que merecem atenção e organizar prioridades de acompanhamento.
 
 ### O que a demonstração apresenta
 
-- Carteira fictícia de 120 empresas clientes.
-- Quantidade de empresas, licenças contratadas, usuários ativos e taxa de ativação.
-- Distribuição de licenças entre quatro módulos fictícios.
-- Frequência de utilização, dias ativos no mês e funcionalidades mais utilizadas.
-- Pontuação ilustrativa de risco baseada em um modelo de machine learning.
-- Recomendações transparentes para orientar a análise humana de cada conta.
+- Dashboard de carteira com filtros e indicadores executivos.
+- Análise de licenças, ativação de usuários e adoção de módulos.
+- Exploração individual de contas.
+- Índice heurístico e transparente de saúde da conta.
+- Sugestões de próximos passos para análise humana.
+- Assistente opcional de IA generativa para perguntas em linguagem natural sobre os dados fictícios.
 
 ### Relação com minha experiência
 
-A escolha do problema foi inspirada em temas gerais de acompanhamento de software B2B presentes na minha experiência profissional, como indicadores de utilização, clientes, licenças e desempenho/adoção do produto. O NEXORA é uma implementação independente, com dados inteiramente sintéticos; não reproduz sistemas, dados, métricas proprietárias ou entregas da Eliis.
+Minha experiência em um ambiente de software B2B me aproximou de temas como indicadores de utilização, acompanhamento de clientes, desempenho/adoção do produto, suporte a usuários e QA. Esses temas inspiraram a **definição do problema** do NEXORA. A implementação, a empresa fictícia, os indicadores e a base de dados foram desenvolvidos separadamente. O projeto não é um produto da Eliis e não reproduz sistemas, dados ou entregas proprietárias.
 
-### Como executar
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+No IPT, também participei de uma iniciativa de automação de processo: utilizei assistência de IA durante o desenvolvimento de código para automatizar a geração de descrições de formulários de campo. Essa experiência é distinta do NEXORA.
 
 ### Limitações
 
-Os dados e resultados são simulados. A pontuação de risco não representa uma previsão validada e as recomendações não são decisões automatizadas. O protótipo não se conecta a CRM nem realiza contato com clientes.
+Todos os dados são sintéticos. O índice de saúde é heurístico, não uma probabilidade de churn validada. As recomendações são regras transparentes para apoiar a análise humana. O assistente de IA é opcional e depende de uma chave de API configurada em ambiente seguro.
