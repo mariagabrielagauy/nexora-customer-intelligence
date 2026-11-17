@@ -1,0 +1,121 @@
+customer_id,segment,industry,contract_months,licensed_seats,active_seat_rate,weekly_sessions,feature_adoption_rate,support_tickets_30d,days_since_last_login,usage_change_30d,nps_score,churn_next_90d,licenses_core_workspace,licenses_advanced_analytics,licenses_collaboration,licenses_automation,active_users,module_adoption_rate,most_used_feature,monthly_active_days
+CUST-001,SMB,Technology,36,11,0.513,6,0.496,3,2,0.144,15,1,1,1,7,2,6,0.705,Collaboration,27
+CUST-002,Mid-market,Retail,36,77,0.362,6,0.323,3,11,0.087,49,0,39,15,7,16,28,0.197,3D Visualization,24
+CUST-003,SMB,Technology,24,24,0.265,3,0.537,4,7,0.107,45,1,13,1,0,10,6,0.566,Collaboration,6
+CUST-004,SMB,Retail,12,5,0.457,10,0.781,0,17,-0.086,-4,0,0,1,3,1,2,0.959,Batch Processing,30
+CUST-005,Enterprise,Retail,24,221,0.588,16,0.335,3,14,-0.201,17,0,0,32,0,189,130,0.302,Interpretation,30
+CUST-006,SMB,Technology,24,5,0.621,8,0.35,2,28,-0.204,20,0,3,1,0,1,3,0.464,Batch Processing,30
+CUST-007,SMB,Energy,12,8,1.0,14,0.673,4,4,-0.318,26,0,0,3,5,0,8,0.434,Reporting,30
+CUST-008,SMB,Financial Services,12,6,0.901,17,0.501,2,3,0.02,1,0,3,1,1,1,5,0.385,Collaboration,30
+CUST-009,Enterprise,Energy,24,245,0.488,13,0.692,3,6,-0.041,19,0,100,80,30,35,120,0.599,Collaboration,30
+CUST-010,Mid-market,Technology,12,61,0.75,9,0.547,1,8,-0.107,17,0,5,12,44,0,46,0.596,Collaboration,30
+CUST-011,Mid-market,Manufacturing,36,65,0.599,12,0.704,1,5,-0.557,54,0,12,4,0,49,39,0.544,Reporting,30
+CUST-012,SMB,Financial Services,12,21,0.623,17,0.322,1,4,-0.249,55,1,14,4,2,1,13,0.286,Collaboration,30
+CUST-013,Mid-market,Manufacturing,12,76,0.717,7,0.547,2,10,0.172,31,0,61,0,15,0,54,0.441,Batch Processing,26
+CUST-014,SMB,Manufacturing,36,10,0.804,9,0.504,0,6,-0.146,25,0,4,1,1,4,8,0.521,Reporting,30
+CUST-015,Mid-market,Retail,12,36,0.612,10,0.283,3,5,0.04,38,1,6,9,0,21,22,0.304,Interpretation,30
+CUST-016,Enterprise,Technology,12,189,0.893,14,0.206,1,2,-0.272,15,0,56,68,48,17,169,0.152,Project Review,30
+CUST-017,Mid-market,Energy,24,65,0.452,10,0.701,1,1,0.238,6,0,9,26,17,13,29,0.758,Interpretation,30
+CUST-018,Enterprise,Technology,36,125,0.681,13,0.473,0,20,-0.066,11,0,11,0,21,93,85,0.214,Project Review,30
+CUST-019,SMB,Manufacturing,12,19,1.0,9,0.325,4,20,0.012,19,0,2,1,5,11,19,0.295,Interpretation,30
+CUST-020,Mid-market,Retail,12,75,0.725,15,0.529,1,14,0.385,6,1,14,13,48,0,54,0.562,Project Review,30
+CUST-021,SMB,Energy,24,25,0.967,15,0.798,6,12,0.241,39,0,7,0,14,4,24,0.546,Reporting,30
+CUST-022,Mid-market,Manufacturing,36,67,0.698,17,0.05,1,5,-0.08,53,0,0,5,41,21,47,0.168,Collaboration,30
+CUST-023,SMB,Manufacturing,24,7,0.796,12,0.221,1,13,-0.14,-5,1,1,0,2,4,6,0.212,Collaboration,30
+CUST-024,SMB,Healthcare,12,21,0.669,10,0.347,3,3,-0.082,36,0,0,17,4,0,14,0.435,Reporting,30
+CUST-025,SMB,Healthcare,12,22,0.646,13,0.871,1,9,0.063,30,0,0,0,12,10,14,0.733,Project Review,30
+CUST-026,Enterprise,Retail,12,119,0.524,11,0.612,3,4,-0.043,44,0,91,0,28,0,62,0.553,3D Visualization,30
+CUST-027,Mid-market,Financial Services,12,54,0.766,16,0.719,2,13,-0.104,35,1,0,2,41,11,41,0.656,Project Review,30
+CUST-028,Enterprise,Financial Services,24,142,0.51,5,0.299,3,23,0.221,-1,0,110,22,0,10,72,0.201,3D Visualization,16
+CUST-029,Enterprise,Retail,12,166,0.813,17,0.304,1,3,-0.044,3,1,58,19,63,26,135,0.262,Collaboration,30
+CUST-030,SMB,Retail,24,5,0.897,12,0.649,2,5,0.389,36,0,0,1,1,3,4,0.813,Batch Processing,30
+CUST-031,SMB,Manufacturing,24,14,0.753,14,0.563,2,9,-0.013,61,0,1,2,3,8,11,0.715,Collaboration,30
+CUST-032,SMB,Technology,24,9,0.623,7,0.671,4,1,0.3,-20,1,0,2,1,6,6,0.655,Collaboration,27
+CUST-033,Mid-market,Technology,12,29,0.771,16,0.509,1,2,0.042,44,0,4,0,8,17,22,0.602,Project Review,30
+CUST-034,Mid-market,Healthcare,36,77,0.618,9,0.611,2,22,0.131,65,0,11,4,50,12,48,0.526,Batch Processing,30
+CUST-035,Mid-market,Financial Services,24,56,0.867,10,0.585,3,10,-0.16,31,0,0,0,40,16,49,0.605,Reporting,30
+CUST-036,Enterprise,Financial Services,24,197,0.314,7,0.721,2,5,-0.179,49,1,0,77,22,98,62,0.782,Batch Processing,26
+CUST-037,Enterprise,Financial Services,12,120,0.613,12,0.728,0,8,0.055,17,0,21,25,48,26,74,0.6,Batch Processing,30
+CUST-038,Mid-market,Energy,12,46,0.282,4,0.194,3,6,0.152,32,0,29,0,17,0,13,0.207,Batch Processing,19
+CUST-039,Enterprise,Technology,36,215,0.381,10,0.056,1,9,-0.022,-6,0,0,176,0,39,82,0.194,3D Visualization,30
+CUST-040,SMB,Technology,12,18,0.953,15,0.77,1,6,-0.258,-24,0,7,11,0,0,17,0.879,Reporting,30
+CUST-041,Mid-market,Manufacturing,12,34,0.859,16,0.811,0,8,-0.273,59,0,0,31,0,3,29,0.809,Collaboration,30
+CUST-042,SMB,Financial Services,24,22,0.536,10,0.325,3,13,-0.29,10,1,0,15,7,0,12,0.275,Project Review,30
+CUST-043,SMB,Energy,24,14,0.379,6,0.141,2,13,-0.351,24,1,2,8,2,2,5,0.063,Project Review,25
+CUST-044,Mid-market,Financial Services,36,77,0.087,2,0.572,4,22,-0.022,0,1,0,43,34,0,7,0.593,Collaboration,6
+CUST-045,SMB,Financial Services,12,22,0.571,9,0.755,2,11,0.172,0,1,12,0,7,3,13,0.824,Project Review,30
+CUST-046,SMB,Healthcare,36,20,1.0,16,0.945,3,8,-0.03,31,0,0,11,0,9,20,0.98,Interpretation,30
+CUST-047,Mid-market,Technology,12,59,0.767,19,0.664,3,24,-0.451,17,1,6,11,10,32,45,0.87,Interpretation,30
+CUST-048,Mid-market,Retail,24,51,0.568,7,0.468,1,7,-0.061,44,0,16,5,20,10,29,0.45,Project Review,30
+CUST-049,SMB,Retail,24,5,0.773,5,0.354,2,1,-0.05,46,0,0,0,2,3,4,0.427,Reporting,19
+CUST-050,Enterprise,Financial Services,12,225,0.368,10,0.553,1,15,0.342,43,1,61,54,35,75,83,0.633,Collaboration,30
+CUST-051,Enterprise,Energy,12,163,0.621,19,0.484,1,10,-0.292,41,1,37,0,0,126,101,0.41,3D Visualization,30
+CUST-052,Enterprise,Manufacturing,12,191,0.7,11,0.327,2,8,-0.098,74,1,13,4,63,111,134,0.05,Interpretation,30
+CUST-053,SMB,Healthcare,36,15,0.663,6,1.0,3,15,0.272,8,0,3,0,0,12,10,0.95,Interpretation,21
+CUST-054,SMB,Manufacturing,24,25,0.838,14,0.943,3,6,0.055,34,0,15,1,8,1,21,0.965,Batch Processing,30
+CUST-055,SMB,Retail,36,20,0.749,12,0.8,2,1,0.08,63,0,8,0,7,5,15,0.98,Reporting,30
+CUST-056,SMB,Retail,36,17,0.814,14,0.347,5,15,-0.014,67,0,3,3,0,11,14,0.448,Interpretation,30
+CUST-057,Mid-market,Healthcare,24,48,0.542,7,0.738,2,5,0.034,-1,0,0,0,25,23,26,0.631,Batch Processing,30
+CUST-058,Mid-market,Financial Services,24,31,0.86,18,0.691,3,4,0.116,27,0,2,7,1,21,27,0.759,Project Review,30
+CUST-059,Enterprise,Manufacturing,12,92,1.0,21,0.647,3,1,-0.167,69,1,53,0,17,22,92,0.576,Project Review,30
+CUST-060,Enterprise,Technology,12,129,0.486,5,0.825,2,14,0.124,48,0,4,0,69,56,63,0.956,Batch Processing,18
+CUST-061,SMB,Financial Services,36,5,0.502,11,0.69,0,0,-0.267,40,0,0,1,3,1,3,0.786,Batch Processing,30
+CUST-062,Mid-market,Energy,24,60,0.947,27,0.713,0,19,0.02,30,0,7,13,29,11,57,0.741,Collaboration,30
+CUST-063,Mid-market,Technology,12,31,0.642,12,0.69,3,6,0.006,25,0,0,12,18,1,20,0.98,Project Review,30
+CUST-064,SMB,Healthcare,24,23,0.961,16,0.625,1,15,-0.146,42,0,12,10,1,0,22,0.609,Reporting,30
+CUST-065,Mid-market,Retail,24,51,0.591,10,0.158,3,11,-0.035,29,1,0,12,0,39,30,0.05,Batch Processing,30
+CUST-066,Mid-market,Technology,36,57,0.971,20,0.568,0,27,-0.159,34,1,12,11,11,23,55,0.693,Interpretation,30
+CUST-067,Mid-market,Manufacturing,24,26,0.706,7,0.428,1,11,-0.224,37,0,3,3,13,7,18,0.469,Collaboration,30
+CUST-068,Mid-market,Retail,12,63,0.732,14,0.268,3,19,-0.103,18,1,0,0,17,46,46,0.208,Interpretation,30
+CUST-069,Enterprise,Manufacturing,12,237,0.993,16,0.92,4,5,-0.224,48,0,0,0,128,109,235,0.98,3D Visualization,30
+CUST-070,Mid-market,Technology,12,25,0.608,17,0.93,3,2,0.036,100,0,0,16,0,9,15,0.98,Interpretation,30
+CUST-071,Enterprise,Retail,24,242,0.492,8,0.849,1,16,-0.243,-9,1,149,0,93,0,119,0.807,3D Visualization,30
+CUST-072,Mid-market,Energy,36,50,0.59,16,0.606,3,2,0.106,43,0,19,0,0,31,30,0.51,Reporting,30
+CUST-073,SMB,Technology,24,12,0.77,10,0.847,4,14,-0.247,16,0,3,2,5,2,9,0.98,Collaboration,30
+CUST-074,Enterprise,Manufacturing,12,96,0.367,8,0.553,2,3,-0.125,49,1,0,30,23,43,35,0.677,3D Visualization,30
+CUST-075,Enterprise,Manufacturing,12,186,0.807,16,0.595,8,10,-0.142,36,0,20,59,107,0,150,0.395,3D Visualization,30
+CUST-076,Mid-market,Retail,24,41,0.572,8,0.309,2,27,0.192,54,1,17,4,9,11,23,0.574,Interpretation,30
+CUST-077,Mid-market,Energy,36,79,0.91,17,0.637,2,13,0.026,64,0,46,28,5,0,72,0.511,3D Visualization,30
+CUST-078,SMB,Energy,12,21,0.201,5,0.563,3,7,-0.065,40,0,1,10,6,4,4,0.81,Interpretation,23
+CUST-079,Mid-market,Healthcare,12,42,0.523,9,0.263,0,11,0.059,63,0,19,16,7,0,22,0.242,Reporting,30
+CUST-080,SMB,Energy,24,18,0.343,3,0.539,3,5,-0.404,-24,1,10,1,1,6,6,0.439,Interpretation,11
+CUST-081,SMB,Manufacturing,12,23,0.515,9,0.532,1,34,-0.062,75,0,3,19,0,1,12,0.587,Batch Processing,30
+CUST-082,Mid-market,Technology,36,41,0.73,10,0.945,2,4,0.336,44,0,32,0,0,9,30,0.98,Reporting,30
+CUST-083,SMB,Retail,12,14,0.644,10,0.747,1,8,-0.004,62,0,2,7,3,2,9,0.732,3D Visualization,30
+CUST-084,Enterprise,Healthcare,12,243,0.629,11,0.553,3,13,-0.021,5,0,0,0,123,120,153,0.692,Interpretation,30
+CUST-085,Enterprise,Healthcare,36,108,0.648,6,0.605,1,11,0.068,14,0,58,0,50,0,70,0.676,3D Visualization,23
+CUST-086,Enterprise,Manufacturing,12,216,0.721,7,0.56,3,12,0.129,39,0,0,100,48,68,156,0.586,Project Review,25
+CUST-087,SMB,Manufacturing,12,16,0.478,10,0.505,2,5,-0.385,35,1,0,9,6,1,8,0.447,Interpretation,30
+CUST-088,Mid-market,Technology,12,31,0.821,13,0.312,3,7,-0.33,42,0,21,10,0,0,25,0.237,Reporting,30
+CUST-089,Enterprise,Technology,12,156,0.813,4,0.517,3,16,0.002,62,0,138,18,0,0,127,0.61,Project Review,15
+CUST-090,Mid-market,Retail,12,80,0.757,17,0.386,3,15,-0.164,-9,1,14,29,25,12,61,0.395,Interpretation,30
+CUST-091,Enterprise,Retail,12,250,0.791,15,0.275,1,11,0.205,59,0,31,219,0,0,198,0.339,Interpretation,30
+CUST-092,SMB,Financial Services,12,19,0.739,11,0.662,4,20,-0.097,35,1,2,3,14,0,14,0.705,Collaboration,30
+CUST-093,Mid-market,Manufacturing,12,63,1.0,11,0.636,1,16,-0.384,30,0,8,31,0,24,63,0.715,Collaboration,30
+CUST-094,Mid-market,Energy,24,40,0.663,15,0.157,4,15,-0.263,-2,1,12,0,0,28,27,0.166,Interpretation,30
+CUST-095,Mid-market,Financial Services,24,68,0.619,12,0.523,1,2,-0.517,48,0,14,33,0,21,42,0.445,Reporting,30
+CUST-096,Mid-market,Energy,12,71,0.529,16,0.769,1,11,-0.073,-25,1,16,17,38,0,38,0.568,Collaboration,30
+CUST-097,Mid-market,Healthcare,12,27,0.474,10,0.783,0,10,-0.064,51,0,5,12,6,4,13,0.704,Reporting,30
+CUST-098,Enterprise,Manufacturing,24,180,0.431,9,0.776,0,22,-0.118,-2,0,29,75,43,33,78,0.98,Interpretation,30
+CUST-099,Enterprise,Manufacturing,36,88,0.502,9,0.559,0,7,0.167,36,0,36,41,11,0,44,0.385,Collaboration,30
+CUST-100,SMB,Healthcare,36,15,0.666,15,0.364,2,9,0.187,32,0,0,5,10,0,10,0.539,Collaboration,30
+CUST-101,SMB,Retail,12,19,0.747,16,0.312,2,3,-0.054,64,0,0,13,6,0,14,0.172,3D Visualization,30
+CUST-102,SMB,Manufacturing,12,13,0.69,17,0.626,1,4,-0.408,31,0,1,7,3,2,9,0.751,3D Visualization,30
+CUST-103,Mid-market,Retail,12,32,0.527,8,0.633,3,22,0.069,18,1,6,8,12,6,17,0.665,Reporting,30
+CUST-104,SMB,Retail,12,14,0.86,14,0.833,2,12,0.068,22,0,0,3,0,11,12,0.98,Project Review,30
+CUST-105,SMB,Healthcare,24,7,0.828,13,0.792,3,27,0.009,67,1,0,4,0,3,6,0.98,Collaboration,30
+CUST-106,SMB,Manufacturing,12,7,0.648,14,0.521,1,7,0.15,48,0,0,1,1,5,5,0.509,Interpretation,30
+CUST-107,Mid-market,Healthcare,12,63,0.549,14,0.276,2,2,-0.232,25,1,18,0,27,18,35,0.104,Interpretation,30
+CUST-108,Mid-market,Healthcare,12,75,0.79,12,0.48,0,6,0.336,29,0,12,47,3,13,59,0.477,Interpretation,30
+CUST-109,Enterprise,Manufacturing,24,161,0.718,11,0.598,1,6,-0.199,-4,1,0,14,78,69,116,0.42,Project Review,30
+CUST-110,SMB,Technology,12,10,0.39,8,0.506,3,14,0.101,45,0,5,4,1,0,4,0.432,Reporting,30
+CUST-111,Mid-market,Retail,36,38,0.666,11,0.423,2,13,-0.337,-9,1,19,7,10,2,25,0.375,Reporting,30
+CUST-112,Enterprise,Technology,12,169,0.732,17,0.606,4,12,-0.199,54,0,69,0,0,100,124,0.586,3D Visualization,30
+CUST-113,Mid-market,Manufacturing,36,50,0.5,3,0.439,3,33,0.22,38,0,9,16,13,12,25,0.612,3D Visualization,14
+CUST-114,Mid-market,Financial Services,12,33,0.718,10,0.412,3,19,-0.086,95,0,0,18,15,0,24,0.589,Batch Processing,30
+CUST-115,Enterprise,Healthcare,36,237,0.389,5,0.619,0,4,0.127,7,0,72,146,19,0,92,0.529,Interpretation,23
+CUST-116,SMB,Healthcare,36,17,0.947,6,0.462,2,17,0.006,32,0,7,4,4,2,16,0.419,Reporting,23
+CUST-117,SMB,Technology,36,13,0.93,12,0.604,4,9,-0.048,80,0,1,0,5,7,12,0.53,Project Review,30
+CUST-118,SMB,Healthcare,36,18,0.629,8,0.61,2,7,0.218,65,0,5,10,2,1,11,0.732,Project Review,30
+CUST-119,Mid-market,Technology,24,25,0.753,13,0.299,2,21,-0.084,18,0,6,3,0,16,19,0.346,Project Review,30
+CUST-120,Mid-market,Energy,24,75,0.198,5,0.444,0,4,-0.345,41,0,22,8,10,35,15,0.425,Batch Processing,25
